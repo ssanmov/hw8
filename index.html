@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <h3>flex-column</h3>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-row</h3>
+    <div class="flex-container row">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-wrap</h3>
+    <div class="flex-container row wrap">
+        <div style="order:5 ;">1</div>
+        <div style="order:3 ;">2</div>
+        <div style="order:9 ;">3</div>
+        <div style="order:8 ;">4</div>
+        <div style="order:1 ;">5</div>
+        <div style="order:7 ;">6</div>
+        <div style="order:2 ;">7</div>
+        <div style="order:6 ;">8</div>
+        <div style="order:10 ;">9</div>
+        <div style="order:4 ;">10</div>
+        <div style="order:11 ;">11</div>
+        <div style="order:12 ;">12</div>
+    </div>
+
+    <h3>flex-nowrap</h3>
+    <div class="flex-container row nowrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+    <h3>flex-flow</h3>
+    <div class="flex-container row flow">
+        <div style="flex-grow: 1 ">1</div>
+        <div style="flex-grow:1 ">2</div>
+        <div style="flex-grow:1; flex-basis: 200px;">3</div>
+        <div style="flex-grow: 1">4</div>
+        <div style="flex-grow:5 ">5</div>
+        <div style="flex-grow: 1">6</div>
+        <div style="flex-grow:1 ">7</div>
+        <div style="flex-grow: 1">8</div>
+        <div style="flex-grow:8; flex-shrink: 0;">9</div>
+        <div style="flex-grow:1 ">10</div>
+        <div style="flex-grow:1 ">11</div>
+        <div style="flex-grow: 5">12</div>
+    </div>
+
+    <h3>flex-content-center</h3>
+    <div class="flex-container row center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-content-end</h3>
+    <div class="flex-container row end ">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-content-space-around</h3>
+    <div class="flex-container row around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-content-space-between</h3>
+    <div class="flex-container row between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-align-center</h3>
+    <div class="flex-container1 row align-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-align-start</h3>
+    <div class="flex-container1 row align-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-align-end</h3>
+    <div class="flex-container1 row align-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-align-stretch</h3>
+    <div class="flex-container1 row align-stretch">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h3>flex-align-baseline</h3>
+    <div class="flex-container1 row align-baseline">
+        <div style="font-size: 35px;">1</div>
+        <div style="font-size: 90px ;">2</div>
+        <div style="font-size: 10px ">3</div>
+    </div>
+
+    <h3>flex-wrap-between</h3>
+    <div class="flex-container2  wrap  content-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+    <h3>flex-wrap-stretch</h3>
+    <div class="flex-container2  wrap  content-stretch">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+    <h3>flex-wrap-center</h3>
+    <div class="flex-container2  wrap  content-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+    <h3>flex-wrap-start</h3>
+    <div class="flex-container2  wrap  content-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+    <h3>flex-wrap-end</h3>
+    <div class="flex-container2  wrap  content-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+    <h3>flex-perfectly-centered</h3>
+    <div class="flex-container1 row align-center justify-center">
+        <div>1</div>
+        
+    </div>
+
+    <h3>resize the screen to 800px or more</h3>
+    <div class="mainflex">
+        <div class="leftflex">1</div>
+        <div class="rightflex">2</div>
+     
+    </div>
+
+
+</body>
+</html>
